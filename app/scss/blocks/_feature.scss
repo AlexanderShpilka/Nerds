@@ -1,0 +1,28 @@
+.feature {
+  flex-basis: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  &__img {
+    width: 300px;
+    height: 146px;
+  }
+
+  &__title {
+    padding-top: 18px;
+    padding-bottom: 7px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #000;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    padding: 10px 20px 10px 0;
+  }
+
+  &__link {
+    margin-top: 21px;
+  }
+}

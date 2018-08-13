@@ -1,0 +1,18 @@
+// @import your .scss files here
+@import 'global/vars';
+@import 'global/mixins';
+@import 'global/fonts';
+@import 'global/global';
+@import 'global/container';
+@import 'global/visually-hidden';
+@import 'blocks/page-header';
+@import 'blocks/nav';
+@import 'blocks/logo';
+@import 'blocks/user-menu';
+@import 'blocks/promo';
+@import 'blocks/slider';
+@import 'blocks/slide';
+@import 'blocks/slick';
+@import 'blocks/advantages';
+@import 'blocks/feature';
+@import 'blocks/feature-btn';

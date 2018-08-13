@@ -1,0 +1,12 @@
+* text=auto
+
+#force text
+*.html text
+*.css text
+*.js text
+
+#binary files
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary

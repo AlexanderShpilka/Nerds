@@ -1,0 +1,84 @@
+.slide {
+  min-height: 430px;
+  padding-top: 50px;
+  padding-bottom: 80px;
+
+  &--long {
+    background-image: url('../img/slide-long@1x.png');
+    background-repeat: no-repeat;
+    background-size: 698px 413px;
+    background-position: bottom 0 right 31px;
+
+    @include retina {
+      background-image: url('../img/slide-long@2x.png');
+    }
+  }
+
+  &--math {
+    background-image: url('../img/slide-math@1x.png');
+    background-repeat: no-repeat;
+    background-size: 663px 430px;
+    background-position: bottom 0 right 1px;
+
+    @include retina {
+      background-image: url('../img/slide-math@2x.png');
+    }
+  }
+
+  &--night {
+    background-image: url('../img/slide-night@1x.png');
+    background-repeat: no-repeat;
+    background-size: 759px 411px;
+    background-position: bottom 1px right 0;
+
+    @include retina {
+      background-image: url('../img/slide-night@2x.png');
+    }
+  }
+
+  &__motto {
+    display: inline-block;
+    width: 560px;
+    padding-top: 27px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    font-size: 55px;
+    font-weight: 500;
+    color: #000;
+    line-height: 55px;
+  }
+
+  &__text {
+    padding-top: 16px;
+    padding-right: 730px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__link {
+    display: inline-block;
+    width: 240px;
+    min-height: 50px;
+    padding: 17px 10px 10px;
+    margin-top: 29px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: $carnation;
+    border-radius: 3px;
+    transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+
+    &:hover {
+      background-color: #e74246;
+    }
+
+    &:active {
+      color: rgba(255, 255, 255, 0.3);
+      background-color: #d7373b;
+    }
+  }
+}
