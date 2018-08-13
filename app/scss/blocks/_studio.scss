@@ -1,0 +1,38 @@
+.studio {
+  padding-top: 40px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #eee;
+  }
+
+  &__left {
+    flex-basis: 700px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+
+  &__right {
+    flex-basis: 380px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+  }
+
+  &__title {
+    padding: 34px 10px 20px 0;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #000;
+
+    span {
+      font-size: 48px;
+      font-weight: 700;
+    }
+  }
+
+  &__text {
+    padding: 12px 10px 10px 0;
+  }
+}
