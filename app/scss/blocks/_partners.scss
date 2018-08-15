@@ -1,0 +1,86 @@
+.partners {
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 28px 22px 16px;
+    border-bottom: 2px solid #eee;
+  }
+
+  &__item {
+    position: relative;
+    padding: 15px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      width: 2px;
+      height: 51px;
+      background-color: #eee;
+    }
+
+    &:nth-child(1) {
+      margin-right: 66px;
+
+      &::after {
+        top: 34px;
+        right: -36px;
+      }
+    }
+
+    &:nth-child(2) {
+      margin-right: 73px;
+
+      &::after {
+        top: 34px;
+        right: -31px;
+      }
+    }
+
+    &:nth-child(3) {
+      margin-right: 91px;
+
+      &::after {
+        top: 34px;
+        right: -43px;
+      }
+    }
+
+    &:nth-child(4) {
+      &::after {
+        display: none;
+      }
+    }
+
+    &--academy {
+      padding-top: 32px;
+    }
+
+    &--barber {
+      padding-top: 16px;
+    }
+
+    &--pink {
+      padding-top: 35px;
+    }
+
+    &--mishka {
+      padding-top: 22px;
+    }
+  }
+
+  &__logo {
+    opacity: 0.2;
+    transition: opacity 0.1s ease-out;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &:active {
+      opacity: 0.1;
+    }
+  }
+}
