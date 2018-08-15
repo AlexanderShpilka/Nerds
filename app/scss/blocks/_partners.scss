@@ -56,24 +56,44 @@
 
     &--academy {
       padding-top: 32px;
+
+      .partners__logo {
+        width: 199px;
+        height: 68px;
+      }
     }
 
     &--barber {
       padding-top: 16px;
+
+      .partners__logo {
+        width: 209px;
+        height: 90px;
+      }
     }
 
     &--pink {
       padding-top: 35px;
+
+      .partners__logo {
+        width: 185px;
+        height: 52px;
+      }
     }
 
     &--mishka {
       padding-top: 22px;
+
+      .partners__logo {
+        width: 173px;
+        height: 84px;
+      }
     }
   }
 
   &__logo {
     opacity: 0.2;
-    transition: opacity 0.1s ease-out;
+    transition: opacity 0.1s ease-in;
 
     &:hover {
       opacity: 1;

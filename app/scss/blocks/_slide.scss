@@ -70,7 +70,7 @@
     text-transform: uppercase;
     background-color: $carnation;
     border-radius: 3px;
-    transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+    transition: color 0.1s ease-in, background-color 0.1s ease-in;
 
     &:hover {
       background-color: #e74246;
