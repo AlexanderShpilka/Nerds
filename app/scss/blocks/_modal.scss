@@ -1,0 +1,55 @@
+.modal {
+  display: none;
+
+  &--show {
+    display: block;
+  }
+
+  &__overlay {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  &__wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 11;
+    width: 960px;
+    padding: 50px 100px 80px;
+    background-color: #fff;
+    border: 1px solid #555;
+    border-radius: 4px;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  &__title {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #000;
+  }
+
+  &__close {
+    position: absolute;
+    top: 84px;
+    right: 92px;
+    width: 21px;
+    height: 21px;
+    border: none;
+    background-color: transparent;
+    background-image: url('../img/close-cross.svg');
+    background-repeat: no-repeat;
+    background-size: 21px 21px;
+    background-position: 0 0;
+    cursor: pointer;
+  }
+}

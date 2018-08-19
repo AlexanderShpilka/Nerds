@@ -226,8 +226,34 @@
     </div>
   </footer>
 
+  <section class="modal">
+    <div class="modal__overlay"></div>
+    <div class="modal__wrapper">
+      <h2 class="modal__title">Напишите нам</h2>
+      <form class="modal__form  form" action="https://echo.htmlacademy.ru">
+        <p class="form__group">
+          <label class="form__label" for="name">Ваше имя:</label>
+          <input class="form__input" type="text" id="name" name="name" placeholder="Имя Фамилия" required>
+        </p>
+        <p class="form__group">
+          <label class="form__label" for="email">Ваш e-mail:</label>
+          <input class="form__input" type="email" id="email" name="email" placeholder="email@example.com" required>
+        </p>
+        <p class="form__group form__group--full">
+          <label class="form__label" for="message">Текст письма:</label>
+          <textarea class="form__input" name="message" id="message" rows="5" placeholder="В свободной форме" required></textarea>
+        </p>
+        <button class="form__button" type="submit">Отправить</button>
+      </form>
+      <button class="modal__close" type="button" aria-label="Закрыть окно обратной связи">
+        <span class="visually-hidden">X</span>
+      </button>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="js/popup.js"></script>
   <script type="text/javascript" src="js/libs/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="js/libs/slick.min.js"></script>
-  <script src="js/slider.js"></script>
+  <script type="text/javascript" src="js/slider.js"></script>
 </body>
 </html>
