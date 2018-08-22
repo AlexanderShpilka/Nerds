@@ -1,0 +1,53 @@
+.catalog-form {
+  width: 300px;
+  padding-top: 40px;
+  padding-right: 40px;
+
+  &__group {
+    margin: 0;
+    margin-bottom: 29px;
+    border: none;
+
+    &:nth-of-type(2) {
+      margin-bottom: 11px;
+    }
+  }
+
+  &__btn {
+    width: 100%;
+    padding: 17px 10px 15px;
+    margin-top: 1px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    background-color: #eee;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+
+    &:hover {
+      background-color: #dfdfdf;
+    }
+
+    &:active {
+      position: relative;
+      color: rgba(0, 0, 0, 0.3);
+      background-color: #d5d5d5;
+      outline: none;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #bfbfbf;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px;
+      }
+    }
+  }
+}

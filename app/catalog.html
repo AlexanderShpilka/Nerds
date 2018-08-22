@@ -48,6 +48,68 @@
       <h1 class="catalog-header__title">Магазин готовых шаблонов</h1>
     </header>
     
+    <div class="container">
+      <div class="wrapper">
+        <form class="catalog-form" action="https://echo.htmlacademy.ru" method="post">
+          <fieldset class="catalog-form__group  parameter  price">
+            <span class="parameter__title  parameter__title--expanded">Стоимость:</span>
+            <div class="price__bg">
+              <div class="price__range">
+                <div class="price__btn  price__btn--min"></div>
+                <div class="price__btn  price__btn--max"></div>
+              </div>
+            </div>
+            <div class="price__input-wrapper">
+              <span>от</span> <input class="price__input  price__input--min" type="number" name="min-price" value="0">
+              <span>до</span> <input class="price__input  price__input--max" type="number" name="max-price" value="15000">
+            </div>
+          </fieldset>
+          <fieldset class="catalog-form__group  parameter">
+            <span class="parameter__title">Сетка:</span>
+            <ul class="parameter__list">
+              <li class="parameter__item">
+                <input class="visually-hidden" id="layout-adaptive" type="radio" name="layout" value="adaptive" checked>
+                <label class="parameter__label  parameter__label--radio" for="layout-adaptive">Адаптивная</label>
+              </li>
+              <li class="parameter__item">
+                <input class="visually-hidden" id="layout-fixed" type="radio" name="layout" value="fixed">
+                <label class="parameter__label  parameter__label--radio" for="layout-fixed">Фиксированная</label>
+              </li>
+              <li class="parameter__item">
+                <input class="visually-hidden" id="layout-responsive" type="radio" name="layout" value="responsive">
+                <label class="parameter__label  parameter__label--radio" for="layout-responsive">Резиновая</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="catalog-form__group  parameter">
+            <span class="parameter__title">Особенности:</span>
+            <ul class="parameter__list">
+              <li class="parameter__item">
+                <input class="visually-hidden" id="param-slider" type="checkbox" name="slider" checked>
+                <label class="parameter__label  parameter__label--checkbox" for="param-slider">Слайдер</label>
+              </li>
+              <li class="parameter__item">
+                <input class="visually-hidden" id="param-advantages" type="checkbox" name="advantages">
+                <label class="parameter__label  parameter__label--checkbox" for="param-advantages">Блок преимуществ</label>
+              </li>
+              <li class="parameter__item">
+                <input class="visually-hidden" id="param-news" type="checkbox" name="news" checked>
+                <label class="parameter__label  parameter__label--checkbox" for="param-news">Новости</label>
+              </li>
+              <li class="parameter__item">
+                <input class="visually-hidden" id="param-gallery" type="checkbox" name="gallery">
+                <label class="parameter__label  parameter__label--checkbox" for="param-gallery">Галерея</label>
+              </li>
+              <li class="parameter__item">
+                <input class="visually-hidden" id="param-cart" type="checkbox" name="cart">
+                <label class="parameter__label  parameter__label--checkbox" for="param-cart">Корзина</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button class="catalog-form__btn" type="submit">Показать</button>
+        </form>
+      </div> <!-- / .wrapper -->
+    </div> <!-- / .container -->
     
     <section class="contacts">
       <h2 class="visually-hidden">Контакты</h2>
@@ -104,7 +166,7 @@
     <div class="modal__overlay"></div>
     <div class="modal__wrapper">
       <h2 class="modal__title">Напишите нам</h2>
-      <form class="modal__form  form" action="https://echo.htmlacademy.ru">
+      <form class="modal__form  form" action="https://echo.htmlacademy.ru" method="post">
         <p class="form__group">
           <label class="form__label" for="name">Ваше имя:</label>
           <input class="form__input" type="text" id="name" name="name" placeholder="Имя Фамилия" required>
