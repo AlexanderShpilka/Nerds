@@ -1,0 +1,23 @@
+.sorting {
+  display: flex;
+  padding: 10px 0;
+
+  &__title {
+    padding: 2px 10px 5px 0;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #000;
+    text-transform: uppercase;
+  }
+
+  &__type {
+    margin-right: 19px;
+    margin-left: auto;
+  }
+
+  &__order {
+    padding: 6px 0 5px 5px;
+  }
+}

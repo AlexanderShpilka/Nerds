@@ -1,0 +1,25 @@
+.sort-type {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 10px;
+
+  &__link {
+    padding: 2px 13px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    transition: color 0.1s ease-in;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.6);
+    }
+
+    &--active,
+    &:active {
+      color: #000;
+    }
+  }
+}

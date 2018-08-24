@@ -1,0 +1,24 @@
+.sort-order {
+  &__link {
+    display: inline-block;
+    opacity: 0.2;
+    transition: opacity 0.1s ease-in;
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+    &--active,
+    &:active {
+      opacity: 1;
+    }
+
+    &:first-of-type {
+      padding-right: 8px;
+    }
+
+    &:last-of-type {
+      padding-left: 7px;
+    }
+  }
+}
