@@ -66,6 +66,22 @@
     }
   }
 
+  &__map-wrapper {
+    position: relative;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      display: block;
+      width: 100vw;
+      height: 416px;
+      min-width: 1200px;
+      max-width: 100%;
+    }
+  }
+
   picture {
     // position: relative;
     display: block;
