@@ -22,10 +22,11 @@
     z-index: 11;
     width: 960px;
     padding: 50px 100px 80px;
+    margin-top: -290px;
+    margin-left: -480px;
     background-color: #fff;
     border: 1px solid #555;
     border-radius: 4px;
-    transform: translateX(-50%) translateY(-50%);
   }
 
   &__title {
@@ -51,5 +52,15 @@
     background-size: 21px 21px;
     background-position: 0 0;
     cursor: pointer;
+    opacity: 0.3;
+    transition: 0.1s ease-in;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &:active {
+      opacity: 0.1;
+    }
   }
 }

@@ -67,7 +67,7 @@
   }
 
   picture {
-    position: relative;
+    // position: relative;
     display: block;
     width: 1200px;
     height: 416px;
@@ -77,9 +77,10 @@
   }
 
   &__map {
-    position: absolute;
-    top: 0;
-    left: -120px;
+    // position: absolute;
+    // top: 0;
+    // left: -120px;
+    margin-left: -120px;
     max-width: initial;
     width: 1440px;
     height: 416px;
